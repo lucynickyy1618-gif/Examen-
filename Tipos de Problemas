@@ -1,0 +1,15 @@
+/*Nicolas Ventura Lucero 
+Tipo 1. Problemas Simples 
+(calcular operaciones basicas directas, suma , resta, multi, divi)*/
+
+#include <stdio.h>
+int main ()
+{
+float num1, num2, suma;
+printf("ingrese el primer numero: ");
+scanf ("%f", &num1);                    //El & guarda lo que teclaste dentro de la variable num1  
+suma = num1 + 5;                        //Operacion basica 
+printf("La suma es: %f\n", suma);       //Salida del resultado 
+return 0;
+}
+
