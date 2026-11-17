@@ -1,0 +1,6 @@
+#include <stdio.h> //1. La paqueteria basica para leer y escribir en pantalla 
+int main () {  //2. La puerta de entrada principal ( donde arranca todo )
+               //3.Aqui van las variables y las instrucciones (lo que cambia en cada problema )
+return 0;      //4.Indica que el programa termino con exito
+}
+
