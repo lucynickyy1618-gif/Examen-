@@ -1,0 +1,26 @@
+/*Nicolas Ventura Lucero 
+Decisiones con if y else*/
+
+#include <stdio.h>     //1.Libreria obligatoria para leer y escribir 
+int main (){           //2. Declaramos las cajitas que vamos a usar   
+                       //Usamos float porque el radio o el radio pueden tener puntos decimales 
+float radio, area, circunferencia;
+
+//Declaramos una constante para PI porque su valor nunca cambia 
+const float PI = 3.1416;  
+
+//3. Entrada: Le pedimos el dato al usuario
+printf("Ingrese el radio del circulo: ");
+scanf("%f", &radio); //Guardamos lo que tecleo en la cajita ´radio´
+
+//4.Proceso  (Calculos matematicos )
+area = PI * radio * radio;   //Multiplicamos pi por radio al cuadrado 
+circunferencia = 2 * PI * radio;  //Multiplicamos 2 por PI por radio 
+
+//5. SALIDA: Mostramos los resultados en la pantalla
+    printf("\n--- Resultados ---\n");
+    printf("El area del circulo es: %.2f\n", area);             // %.2f redondea a 2 decimales
+    printf("La circunferencia es: %.2f\n", circunferencia);
+    
+    return 0; // Indicamos que el programa terminó bien
+    }
